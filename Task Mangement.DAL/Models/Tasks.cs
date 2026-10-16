@@ -8,7 +8,7 @@ using Task_Mangement.DAL.Models.Enums;
 
 namespace Task_Mangement.DAL.Models
 {
-    public class Task:BaseEntity
+    public class Tasks:BaseEntity
     {
         public string Title { get; set; } = default!;
         public string? Description { get; set; }

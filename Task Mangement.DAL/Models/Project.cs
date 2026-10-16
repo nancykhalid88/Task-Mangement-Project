@@ -11,6 +11,6 @@ namespace Task_Mangement.DAL.Models
         public string Name { get; set; } = default!;
         public string? Description { get; set; }
         public int OwnerId { get; set; }
-        public ICollection<Task> Tasks { get; set; } = new List<Task>();
+        public ICollection<Tasks> Tasks { get; set; } = new List<Tasks>();
     }
 }
