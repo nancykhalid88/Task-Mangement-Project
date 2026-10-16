@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="Task Mangement Project/Task Mangement.PL.csproj" />
+  <Project Path="Task Mangement.BLL/Task Mangement.BLL.csproj" />
+  <Project Path="Task Mangement.DAL/Task Mangement.DAL.csproj" />
+</Solution>
